@@ -3,6 +3,7 @@ public class AtmMachine {
     private int currentBalance;
     private int depAmount;
     private int withdrawAmount;
+    private int transferAmount;
 
     //Getter and setter
     public int getCurrentBalance() {
@@ -22,6 +23,12 @@ public class AtmMachine {
     }
     public void setWithdrawAmount(int withdrawAmount) {
         this.withdrawAmount = withdrawAmount;
+    }
+    public int getTransferAmount() {
+        return transferAmount;
+    }
+    public void setTransferAmount(int transferAmount) {
+        this.transferAmount = transferAmount;
     }
 
 }
